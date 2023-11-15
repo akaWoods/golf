@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Course of the Week</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #60a364af;
+        color: #FFF;
+        background-image: url(imgs/background.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        opacity: 0.9;
+      }
+
+      header {
+        background-color: #2C3E50;
+        color: #FFF;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .logo {
+        position: relative;
+        z-index: 1;
+        margin: -10px 0;
+        width: 110px;
+      }
+
+      .nav {
+        display: flex;
+        align-items: center;
+      }
+
+      .nav a {
+        display: block;
+        text-decoration: none;
+        background-color: #E74C3C;
+        color: #FFF;
+        margin: 0 10px;
+        padding: 10px 20px;
+        border: 2px solid #FFF;
+        border-radius: 50px;
+      }
+
+      .nav a:hover {
+        text-decoration: underline;
+      }
+
+      .course-info {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #2C3E50;
+      }
+
+      .course-title {
+        text-align: center;
+        font-size: 24px;
+      }
+
+      .course-title a {
+        color: #FFF;
+        text-decoration: none;
+      }
+
+      .course-image {
+        float: left;
+        margin-right: 20px;
+      }
+
+      .course-description {
+        clear: both;
+      }
+
+      .course-of-the-week {
+        font-size: 30px;
+        text-decoration: underline;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <div class="logo">
+        <img src="imgs/LogoSmall.png" alt="Breakfast Ball">
+      </div>
+      <div class="site-title">
+        <h1>Breakfast Balls Golf Club</h1>
+      </div>
+      <nav class="nav">
+        <a href="index.html">
+          <i class="fas fa-home"></i> Home </a>
+        <a href="members.html">
+          <i class="fas fa-users"></i> Members </a>
+        <a href="courseinfo.html">
+          <i class="fas fa-golf-ball"></i> Course Info </a>
+        <a href="marketplace.html">
+          <i class="fas fa-shopping-cart"></i> Marketplace </a>
+        <a href="contact.html">
+          <i class="fas fa-envelope"></i> Contact Us </a>
+      </nav>
+    </header>
+    <div class="course-info">
+      <h1 class="course-of-the-week">Course of the Week</h1>
+      <h2 class="course-title">Lake Winnipesaukee Golf Club</h2>
+      <a href="https://www.lwgcnh.com/home">
+        <div class="course-image">
+          <img src="imgs/CourseWeek.jpeg" alt="Course of the Week">
+        </div>
+      </a>
+      <div class="course-description">
+        <h2>Course Statistics</h2>
+        <ul class="course-stats">
+          <li>Holes: 18</li>
+          <li>Par: 72</li>
+          <li>Length: 7,002 yards</li>
+          <li>Slope: 136</li>
+          <li>Rating: 71.3</li>
+        </ul>
+        <h2>Detailed Description</h2>
+        <p>Lake Winnipesaukee Golf Club is a stunning golf course nestled in the picturesque Lakes Region of New Hampshire. Situated on the shores of Lake Winnipesaukee in the town of New Durham, this golf club offers golfers an exceptional and challenging golfing experience combined with breathtaking natural beauty. Here's a detailed description of the Lake Winnipesaukee Golf Club:</p>
+        <ul class="course-info-list">
+          <li>Year Built: 1990</li>
+          <li>Architect(s): Clive Clark, Mark Mungeam</li>
+          <li>Greens: Bent Grass</li>
+          <li>Fairways: Bent Grass</li>
+          <li>Season: Open from May 1st to Closed on November 15th</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
